@@ -7,7 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="BaseX861" level="project" />
-    <orderEntry type="library" name="xmldb" level="project" />
+    <orderEntry type="library" name="BaseX" level="project" />
   </component>
 </module>

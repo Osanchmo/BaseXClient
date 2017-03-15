@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="BaseX861">
+  <library name="BaseX">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Documents/jars/BaseX861.jar!/" />
+      <root url="jar://$USER_HOME$/Imatges/basex/BaseX.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

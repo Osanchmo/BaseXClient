@@ -19,7 +19,6 @@ public final class ServerCommands {
         System.out.println("=== ServerCommands ===");
 
         // Start server on default port 1984
-        BaseXServer server = new BaseXServer();
 
         // Create a client session with host name, port, user name and password
         System.out.println("\n* Create a client session.");
@@ -29,7 +28,7 @@ public final class ServerCommands {
             // Create a database
             System.out.println("\n* Create a database.");
 
-            session.execute(new CreateDB("input", "/home/dionis/Documents/Factbook.xml"));
+            session.execute(new CreateDB("input", "/home/21753725a/Imatges/xmls/Factbook.xml"));
 
             // Run a query
             System.out.println("\n* Run a query:");
@@ -63,12 +62,7 @@ public final class ServerCommands {
             // Drop the database
             System.out.println("\n* Close and drop the database.");
 
-        //    session.execute(new DropDB("input"));
+            // session.execute(new DropDB("input"));
         }
-
-        // Stop the server
-        System.out.println("\n* Stop the server.");
-
-        server.stop();
     }
 }
